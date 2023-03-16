@@ -4,8 +4,8 @@ from selene import be, have
 
 @pytest.fixture
 def set_window_size():
-    browser.config.window_height = 800
-    browser.config.window_width = 600
+    browser.config.window_height = 1000
+    browser.config.window_width = 500
 
 
 def test_search_works(set_window_size):
